@@ -19,4 +19,6 @@ Dependency packages:
 
 It works, but cannot generate the \wav\
 
-    LD_LIBRARY_PATH=/usr/lib ./sinsyNG -o a.wav a.xml
+    LD_LIBRARY_PATH=/usr/lib ./sinsyNG -o a.wav a.xml 
+    or you can do this:
+        export LD_LIBRARY_PATH=/usr/lib/
